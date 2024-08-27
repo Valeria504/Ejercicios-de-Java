@@ -1,0 +1,25 @@
+import java.util.Scanner;
+ public class PromedioCal
+ {
+ public static void main(String args[])
+	 {
+	 	 Scanner s=new Scanner(System.in);
+	 	 System.out.println("Escribe calificacion a: ");
+	 	 double a=s.nextDouble();
+	 	 System.out.println("Escribe calificacion b: ");
+	 	 double b=s.nextDouble();
+	 	 System.out.println("Escribe calificacion c: ");
+	 	 double c=s.nextDouble();
+	 	 double promedio=(a+b+c)/3;
+		System.out.println("El promedio es:"+promedio);
+		if(promedio>=6)
+		{
+		System.out.println("El alumno aprobo: ");
+		}
+		else
+		{
+		System.out.println("El alumno reprobo: ");
+		}
+		System.out.println("Martinez Tamariz Alma Valeria V");
+	 }
+ }

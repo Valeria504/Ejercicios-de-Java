@@ -1,0 +1,23 @@
+import java.util.*;
+	public class Descuento
+	{
+		public static void main(String args[])
+		{
+		 Scanner sc= new Scanner(System.in);
+		 double p;
+		 System.out.println("Ingresa el precio:");
+		 p=sc.nextDouble();
+		 if(p>=500)
+		 {
+		 p =(p-(p*.30));
+		 }
+		 else
+		 {
+		 p =(p-(p*.10));
+		 }
+		System.out.println("Precio con descuento:"+p);		
+	}
+	{
+		System.out.println("Martinez Tamariz Alma Valeria 3-5");
+	}
+}

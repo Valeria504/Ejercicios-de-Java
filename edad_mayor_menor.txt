@@ -1,0 +1,20 @@
+import java.util.*;
+public class mayor
+{
+	public static void main(String[] args) 
+	{
+	Scanner sc=new Scanner (System.in);
+	double edad;
+	System.out.println("Ingresa la edad: ");
+	edad= sc.nextDouble();
+			if(edad>=18)
+			{
+			System.out.println("Es mayor de edad: ");
+			}
+			else
+			{
+			System.out.println("Es menor de edad");
+			}
+	System.out.println("Martinez Tamariz Alma Valeria 3°V");	
+	}
+}
